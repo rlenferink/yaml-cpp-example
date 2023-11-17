@@ -1,0 +1,21 @@
+---
+
+# Example YAML file to demonstrate the yaml-cpp library
+
+example_bool: true
+
+example_string: |
+  Test 123
+  Test 456
+
+example_list:
+  - item1
+  - "item2"
+  - item3
+
+example_dict:
+  key1: value1
+  key2:
+    sub_key1: sub_value1
+    sub_key2: sub_value2
+

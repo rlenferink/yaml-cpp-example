@@ -6,6 +6,13 @@
 .idea/
 
 # Build artifacts
+build/
 cmake-build-*
 target/
 
+# Binary artifacts
+*.tar
+*.tar.gz
+
+# Dependencies
+yaml-cpp-*
