@@ -4,6 +4,8 @@ Example project for using the [jbeder/yaml-cpp](https://github.com/jbeder/yaml-c
 
 This is tested against the 0.8.0 release of yaml-cpp.
 
+**Precondition**: `podman` is installed on your system.
+
 ## Usage
 
 Execute the following steps:
