@@ -1,0 +1,11 @@
+*~*
+*.swp
+
+# Jetbrains artifacts
+*.iml
+.idea/
+
+# Build artifacts
+cmake-build-*
+target/
+
