@@ -1,0 +1,30 @@
+{
+  "example_bool": true,
+  "example_string": "Test 123\nTest 456\n",
+  "example_list": [
+    "item1",
+    "item2",
+    "item3"
+  ],
+  "example_complex_list": [
+    {
+      "lat": 10.00000,
+      "lon": 11.00000
+    },
+    {
+      "lat": 12.00000,
+      "lon": 13.00000
+    },
+    {
+      "lat": 14.00000,
+      "lon": 15.00000
+    }
+  ],
+  "example_dict": {
+    "key1": "value1",
+    "key2": {
+      "sub_key1": "sub_value1",
+      "sub_key2": "sub_value2"
+    }
+  }
+}
