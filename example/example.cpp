@@ -31,7 +31,7 @@ void parse_file(const std::string& fileName) {
     std::cout << "Start of parsing '" << fileName << "' ...\n";
     std::cout << "=========================\n";
 
-    YAML::Node config = YAML::LoadFile("../example.yaml");
+    YAML::Node config = YAML::LoadFile(fileName);
 
     auto exampleBool = config["example_bool"];
     std::cout << "Example bool: " << exampleBool.as<bool>() << "\n\n";
